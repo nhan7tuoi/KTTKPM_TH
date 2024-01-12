@@ -1,0 +1,14 @@
+package com.fit.se.service;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+@Service
+public class ProductService {
+	
+	private final String url = "http://localhost:8080";
+	
+	private  RestTemplate restTemplate;
+	
+	
+}
